@@ -2,7 +2,8 @@
 ===================
 
 #### Global Cron File
-**Path:** `/etc/crontab` **Format**
+- Path: `/etc/crontab`
+- Format:
 ```
 Example of job definition:
 .---------------- minute (0 - 59)
@@ -14,7 +15,8 @@ Example of job definition:
 *  *  *  *  * user-name command to be executed
 ```
 #### User Cron File
-**Path:** `/var/spool/cron/{USERNAME}` **Format**
+- Path: `/var/spool/cron/{USERNAME}` 
+- Format:
 ```
 Example of job definition:
 .---------------- minute (0 - 59)
@@ -27,8 +29,8 @@ Example of job definition:
 ```
 
 #### Switch Use In Shell Script
-**Run one command:** `su - oracle -c command`
-**Run a script file:** `su - oracle -s /bin/bash shell.sh`
+- Run one command: `su - oracle -c command`
+- Run a script file: `su - oracle -s /bin/bash shell.sh`
 
 #### Replace content in file
 sed -i 's/abc/xxx/g' file
