@@ -1,0 +1,11 @@
+#!/bin/sh
+
+echo z >> /tmp/cron-test-out
+sleep 3s
+echo z >> /tmp/cron-test-out
+sleep 3s
+echo z >> /tmp/cron-test-out
+sleep 3s
+echo z >> /tmp/cron-test-out
+sleep 3s
+echo z >> /tmp/cron-test-out

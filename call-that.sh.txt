@@ -1,0 +1,4 @@
+#!/bin/sh
+
+su - zhanhao -s /bin/sh /home/zhanhao/script-test/cron-test.sh
+

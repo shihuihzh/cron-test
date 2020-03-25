@@ -1,0 +1,7 @@
+#!/bin/sh
+
+
+# delete itself from cron file
+sed -i /.*cron-once-test.sh.*/d /var/spool/cron/root
+
+
